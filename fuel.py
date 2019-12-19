@@ -7,7 +7,6 @@ def get_fuel(input):
         fuel += (mass//3)-2
     return fuel
 
-
 def total_fuel(input):
     fuel = 0
     for mass in input:
